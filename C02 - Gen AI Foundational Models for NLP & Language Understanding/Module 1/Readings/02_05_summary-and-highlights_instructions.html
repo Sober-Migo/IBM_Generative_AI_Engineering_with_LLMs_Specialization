@@ -1,0 +1,188 @@
+<meta charset="utf-8"/>
+<co-content>
+ <p variant="body1">
+  Congratulations! You have completed this lesson. At this point in the course, you know that:
+ </p>
+ <ul bullettype="bullets">
+  <li>
+   <p variant="body1">
+    One-hot encoding converts categorical data into feature vectors.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The bag-of-words representation portrays a document as the aggregate or average of one-hot encoded vectors.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    When you feed a bag-of-words vector to a neural network's hidden layer, the output is the sum of the embeddings.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The Embedding and EmbeddingBag classes are used to implement embedding and embedding bags in PyTorch.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    A document classifier seamlessly categorizes articles by analyzing the text content.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    A neural network is a mathematical function consisting of a sequence of matrix multiplications with a variety of other functions.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The Argmax function identifies the index of the highest logit value, corresponding to the most likely class.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Hyperparameters are externally set configurations of a neural network.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The prediction function works on real text that starts by taking in tokenized text. It processes the text through the pipeline, and the model predicts the category.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    A neural network functions via matrix and vector operations, called learnable parameters.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    In neural network training, learnable parameters are fine-tuned to enhance model performance. This process is steered by the loss function, which serves as a measure of accuracy.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The prediction function works on real text that starts by taking in tokenized text. It processes the text through the pipeline, and the model predicts the category.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Cross-entropy is used to find the best parameters.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    For unknown distribution, estimate it by averaging the function applied to a set of samples. This technique is known as Monte Carlo sampling.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Optimization is used to minimize the loss.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Generally, the data set should be partitioned into three subsets: training data for learning, validation data for hyperparameter tuning, and test data to evaluate real-world performance.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The training data is split into training and validation, and then data loaders are set up for training, validation, and testing.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Batch size specifies the sample count for gradient approximation, and shuffling the data promotes better optimization.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    When you define your model, init_weights helps with optimization.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    To train your loop:
+   </p>
+   <ul bullettype="bullets">
+    <li>
+     <p variant="body1">
+      Iterate over each epoch
+     </p>
+    </li>
+    <li>
+     <p variant="body1">
+      Set the model to training mode
+     </p>
+    </li>
+    <li>
+     <p variant="body1">
+      Calculate the total loss
+     </p>
+    </li>
+    <li>
+     <p variant="body1">
+      Divide the data set into batches
+     </p>
+    </li>
+    <li>
+     <p variant="body1">
+      Perform gradient descent
+     </p>
+    </li>
+    <li>
+     <p>
+      Update the loss after each batch is processed
+     </p>
+    </li>
+   </ul>
+  </li>
+ </ul>
+</co-content>
+<style>
+ body {
+    padding: 50px 85px 50px 85px;
+}
+
+table th, table td {
+    border: 1px solid #e0e0e0;
+    padding: 5px 20px;
+    text-align: left;
+}
+input {
+    margin: 10px;
+}
+}
+th {
+    font-weight: bold;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+pre {
+    display: block;
+    margin: 20px;
+    background: #424242;
+    color: #fff;
+    font-size: 13px;
+    white-space: pre-wrap;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    border: 1px solid #ccc;
+}
+</style>
+<script async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+</script>
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$$','$$'], ['$','$'] ],
+      displayMath: [ ["\\[","\\]"] ],
+      processEscapes: true
+    }
+  });
+</script>

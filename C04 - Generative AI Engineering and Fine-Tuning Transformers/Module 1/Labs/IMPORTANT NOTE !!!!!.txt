@@ -1,0 +1,3 @@
+i deleted lab3  as it is a part from lab1 of module 2 and i just kept the numbering as it is just for reference
+
+see ../../Module 2/Labs/01 - Adapters in PyTorch.ipynb

@@ -1,0 +1,128 @@
+<meta charset="utf-8"/>
+<co-content>
+ <p variant="body1">
+  Congratulations! You have completed this lesson. At this point in the course, you know that:
+ </p>
+ <ul bullettype="bullets">
+  <li>
+   <p variant="body1">
+    Tokenization and data loading are part of the data preparation activities for natural language processing (NLP).
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Tokenization breaks a sentence into smaller pieces or tokens.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Tokenizers are essential tools that break down text into tokens. These tokens can be words, characters, or subwords, making complex text understandable to computers. Examples of tokenizers are natural language toolkit (NLTK) and spaCy.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Word-based tokenization preserves the semantic meaning, though it increases the model’s overall vocabulary.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Character-based tokenization has smaller vocabularies but may not convey the same information as entire words.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Subword-based tokenization allows frequently used words to stay unsplit while breaking down infrequent words.
+   </p>
+   <ul bullettype="bullets">
+    <li>
+     <p variant="body1">
+      Using the WordPiece, Unigram, and SentencePiece algorithms, you can implement subword-based tokenization.
+     </p>
+    </li>
+   </ul>
+  </li>
+  <li>
+   <p variant="body1">
+    You can add special tokens such as &lt;bos&gt; at the beginning and &lt;eos&gt; at the end of a tokenized sentence.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    A data set in PyTorch is an object that represents a collection of data samples. Each data sample typically consists of one or more input features and their corresponding target labels.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    A data loader helps you prepare and load data to train generative AI models. Using data loaders, you can output data in batches instead of one sample at a time.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Data loaders have several key parameters, including the data set to load from, batch size (determining how many samples per batch), shuffle (whether to shuffle the data for each epoch), and more. Data loaders also provide an iterator interface, making it easy to iterate over batches of data during training.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    PyTorch has a dedicated DataLoader class.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Data loaders seamlessly integrate with the PyTorch training pipeline and simplify data augmentation and preprocessing.
+   </p>
+  </li>
+  <li>
+   <p>
+    A collate function is employed in the context of data loading and batching in machine learning, particularly when dealing with variable-length data, such as sequences (e.g., text, time series, and sequences of events). Its primary purpose is to prepare and format individual data samples (examples) into batches that machine learning models can efficiently process.
+   </p>
+  </li>
+ </ul>
+</co-content>
+<style>
+ body {
+    padding: 50px 85px 50px 85px;
+}
+
+table th, table td {
+    border: 1px solid #e0e0e0;
+    padding: 5px 20px;
+    text-align: left;
+}
+input {
+    margin: 10px;
+}
+}
+th {
+    font-weight: bold;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+pre {
+    display: block;
+    margin: 20px;
+    background: #424242;
+    color: #fff;
+    font-size: 13px;
+    white-space: pre-wrap;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    border: 1px solid #ccc;
+}
+</style>
+<script async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+</script>
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$$','$$'], ['$','$'] ],
+      displayMath: [ ["\\[","\\]"] ],
+      processEscapes: true
+    }
+  });
+</script>

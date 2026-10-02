@@ -1,0 +1,117 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environments
+.env
+.env.*
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+llms_env/
+
+# IDE
+.idea/
+.vscode/
+.ruff_cache/
+.mypy_cache/
+
+# Local HF / torch / vector caches
+**/.vector_cache/
+**/hf_cache/
+**/torch_cache/
+
+# GloVe (torchtext uses TORCH_HOME/text/.vector_cache; optional local folder)
+Glove/
+glove*.zip
+glove*.txt
+glove*.tmp
+
+# Misc course / local
+all_pip_packages.txt
+*.mhtml
+__pycache__/
+
+# =============================================================================
+# Large lab weights / datasets ONLY (fetched via download_assets.py)
+# Other .zip / .pkl / .pt / .pth under the repo are tracked normally.
+# =============================================================================
+
+# C02
+C02 - Gen AI Foundational Models for NLP & Language Understanding/Module 2/Labs/assets/lab3_RNN-TR-model.pt
+
+# C03
+C03 - Generative AI Language Modeling with Transformers/Module 1/Labs/assets/lab2_trained_model.pth
+C03 - Generative AI Language Modeling with Transformers/Module 2/Labs/assets/lab1_decoder.pt
+C03 - Generative AI Language Modeling with Transformers/Module 2/Labs/assets/lab2_bert_dataset.zip
+C03 - Generative AI Language Modeling with Transformers/Module 2/Labs/assets/lab2_model.pt
+C03 - Generative AI Language Modeling with Transformers/Module 2/Labs/assets/lab3_train_bert_data_new.zip
+C03 - Generative AI Language Modeling with Transformers/Module 2/Labs/assets/lab4_transformer.pt
+C03 - Generative AI Language Modeling with Transformers/Module 2/Labs/assets/lab4_transformer_de_to_en_model.pt
+
+# C04
+C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 1/Labs/assets/lab2_bert-scratch-model.pt
+C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 1/Labs/assets/lab4_Assistant_model.pt
+C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 1/Labs/assets/lab4_bert-classification-model.pt
+C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab1_dataset.gz
+C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab1_model-adapters.pth
+C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab1_model-AG News small1.pth
+C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab1_model-fine1.pth
+C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab1_model-fine2.pth
+C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab1_model-IMDB dataset small2.pth
+C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab2_model-imdb-freeze-true2.pth
+C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab2_model-lora-final2.pth
+C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab2_my-model-freeze-false.pth
+
+# C05
+C05 - Generative AI Advanced Fine-Tuning for LLMs/Module 2/Labs/assets/lab1_ppo-bad-tar.gz
+C05 - Generative AI Advanced Fine-Tuning for LLMs/Module 2/Labs/assets/lab1_ppo-good-tar.gz
+C05 - Generative AI Advanced Fine-Tuning for LLMs/Module 2/Labs/assets/lab1_ppo-good.pkl
+C05 - Generative AI Advanced Fine-Tuning for LLMs/Module 2/Labs/assets/lab1_ppo-bad.pkl

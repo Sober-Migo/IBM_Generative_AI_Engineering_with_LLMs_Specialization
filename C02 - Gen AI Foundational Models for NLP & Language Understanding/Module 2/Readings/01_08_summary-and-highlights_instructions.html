@@ -1,0 +1,253 @@
+<meta charset="utf-8"/>
+<co-content>
+ <p variant="body1">
+  Congratulations! You have completed this lesson. At this point in the course, you know that:
+ </p>
+ <ul bullettype="bullets">
+  <li>
+   <p variant="body1">
+    Word2Vec is the short form for “word to vector.” It is a group of models that produce word embeddings or vectors, which are numerical representations capturing the essence of words.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    A neural network model consists of an input layer, an embedding layer, and an output layer.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Words are fed into an embedding layer, which interacts with an output layer to predict context words.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The number of neurons in both input and output layers corresponds to the vocabulary size, while the embedding layer’s size, which is chosen by the user, defines the word vector dimensions.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The continuous bag of words, or CBOW model, utilizes context words to predict a target word and generate its embedding.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Skip-gram model predicts surrounding context words from a specific target word. It operates in contrast to the CBOW model.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The Skip-gram model simplifies the task by predicting one context word at a time from a target word.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The sequence generation function in the creation of the skip-gram model is identical to CBOW but with a switch in the order of the target and context. This breakdown allows you to work with the full context in smaller parts.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    While training the parameters, you define the learning rate, loss function, optimizer, and learning rate scheduler.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Once the model is trained, you can retrieve the weights, which are the actual word embeddings.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Word embeddings utilize Stanford pretrained GloVe or global vectors that leverage large-scale data for word embeddings.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Sequence-to-sequence models within generative AI are used in machine translation, such as converting English phrases into French.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Sequence-to-label tasks take multiple inputs to produce a single label, useful in document classification.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Label-to-sequence tasks generate a full sequence from a single input, as seen in generative models for image creation.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    RNN is a type of artificial neural network that uses sequential or time series data.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    It is designed to remember past information and use it to influence future decisions.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    RNNs only remember short-term information and are challenging to train. Two popular RNN enhancements are Gated Recurrent Units (or GRUs) and Long Short-Term Memory (or LSTMs).
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    In general, sequence-to-sequence models are more difficult to train than RNNs due to several factors.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    In model training, the aim is to minimize the cross-entropy loss by summing the output of the predicted outcomes with the actual labels.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Procedure for training sequence-to-sequence models:
+   </p>
+   <ul bullettype="bullets">
+    <li>
+     <p variant="body1">
+      Initialize the model in training mode to activate essential layers like dropout, ensuring optimal performance during training.
+     </p>
+    </li>
+    <li>
+     <p variant="body1">
+      Iterate through training data batches, assigning input (src) and target (trg) sequences to the correct device.
+     </p>
+    </li>
+    <li>
+     <p variant="body1">
+      Generate predictions by output.
+     </p>
+    </li>
+    <li>
+     <p variant="body1">
+      Reshape the output tensor, which aligns the rows and columns correctly for loss calculation.
+     </p>
+    </li>
+    <li>
+     <p variant="body1">
+      Calculate the average loss per batch after processing all batches.
+     </p>
+    </li>
+   </ul>
+  </li>
+  <li>
+   <p variant="body1">
+    Performing translations in sequence models requires complex functions for making predictions.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    RNNs can be used to create sequence-to-sequence models that receive one sequence as input and generate another sequence as output.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The encoder-decoder architectures are introduced so that the sequences do not necessarily require to be of the same length.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Encoder is a series of RNNs that process the input sequence individually, passing their hidden states to their next RNN.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The last hidden state, context, is passed to the Decoder module.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The decoder module, similarly, is a series of RNNs that autoregressively generates the translation as one token at a time.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The embedding layer transforms the input token into an embedded vector, which traverses through the RNN cell to produce the hidden state.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Perplexity is a metric and a precious tool for evaluating the efficiency of LLMs and GenAI models.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    In Perplexity, you can employ cross-entropy loss to measure the discrepancy between the predicted and actual distribution.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Perplexity is calculated as an exponent of the loss obtained from the model.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Perplexity provides an overall measure of model performance but doesn’t capture the nuances of generated text quality.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    In machine translation, precision measures the accuracy of the generated translation, whereas recall measures the completeness of the generated translation.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    F1-Score is a harmonic mean of precision and recall that is used to judge the performance of a model based on them.
+   </p>
+  </li>
+  <li>
+   <p>
+    In NLP, there are several popular libraries that provide implementations of various evaluation metrics, such as NLTK and PyTorch libraries.
+   </p>
+  </li>
+ </ul>
+</co-content>
+<style>
+ body {
+    padding: 50px 85px 50px 85px;
+}
+
+table th, table td {
+    border: 1px solid #e0e0e0;
+    padding: 5px 20px;
+    text-align: left;
+}
+input {
+    margin: 10px;
+}
+}
+th {
+    font-weight: bold;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+pre {
+    display: block;
+    margin: 20px;
+    background: #424242;
+    color: #fff;
+    font-size: 13px;
+    white-space: pre-wrap;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    border: 1px solid #ccc;
+}
+</style>
+<script async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+</script>
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$$','$$'], ['$','$'] ],
+      displayMath: [ ["\\[","\\]"] ],
+      processEscapes: true
+    }
+  });
+</script>

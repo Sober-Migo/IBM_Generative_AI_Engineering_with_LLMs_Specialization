@@ -1,0 +1,180 @@
+<meta charset="utf-8"/>
+<co-content>
+ <p variant="body1">
+  Congratulations! You've successfully completed the course and are now equipped with valuable insights into generative AI architecture and data preparation for large language models (LLMs). At this point, you know that:
+ </p>
+ <ul bullettype="bullets">
+  <li>
+   <p variant="body1">
+    Generative AI refers to deep-learning models that can generate content, such as text, images, audio, 3D objects, and music, based on the training data.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    These models understand the relationship between words and phrases and generate contextually relevant text. An example of a generative AI model for text generation is a generative pre-trained transformer (GPT).
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    These models can generate images from text input and seed images. Examples of generative AI models for image generation are data analysis learning with language model for generation and exploration (DALL-E) and generative adversarial networks (GANs).
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Generative AI models can generate natural-sounding speech. An example of this type of generative AI model is WaveNet.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Generative AI architectures and models include recurrent neural networks (RNNs), transformers, GANs, variational autoencoders (VAEs), and diffusion models.
+   </p>
+   <ul bullettype="bullets">
+    <li>
+     <p variant="body1">
+      RNNs use sequential or time series data and a loop-based design for training.
+     </p>
+    </li>
+    <li>
+     <p variant="body1">
+      Transformers utilize the self-attention mechanism to focus on the most important parts of the information.
+     </p>
+    </li>
+    <li>
+     <p variant="body1">
+      GANs consist of a generator and a discriminator, which work in a competitive mode.
+     </p>
+    </li>
+    <li>
+     <p variant="body1">
+      VAEs operate on an encoder-decoder framework and create samples based on similar characteristics.
+     </p>
+    </li>
+    <li>
+     <p variant="body1">
+      Diffusion models generate creative images by learning to remove noise and reconstruct distorted examples, relying on statistical properties.
+     </p>
+    </li>
+   </ul>
+  </li>
+  <li>
+   <p variant="body1">
+    Generative AI started with rule-based systems that use predefined linguistic rules, followed by machine-learning approaches focusing on statistical methods. It later moved to deep learning, which uses neural networks trained on extensive data sets. Transformers represent the latest in this evolution.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The evolution of generative AI has led to advancements in machine translation, chatbot conversations, sentiment analysis, and text summarization.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Large language models (LLMs) are foundation models that use AI and deep learning with vast data sets. LLMs have training data sets that run into petabytes and contain billions of parameters. Examples of LLMs are GPT, Bidirectional Encoder Representations from Transformers (BERT), Bidirectional and Auto-Regressive Transformers (BART), and Text-to-Text Transfer Transformer (T5).
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Some libraries and tools you can use to implement generative AI for NLP are PyTorch, TensorFlow, Hugging Face, LangChain, and Pydantic.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Tokenization and data loading are part of the data preparation activities for natural language processing (NLP).
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Tokenization breaks a sentence into smaller pieces or tokens. These tokens can be words, characters, or subwords, making complex text understandable to computers. Examples of tokenizers are natural language toolkit (NLTK) and spaCy.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Word-based tokenization preserves the semantic meaning, though it increases the model’s overall vocabulary.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Character-based tokenization has smaller vocabularies but may not convey the same information as entire words.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    Subword-based tokenization allows frequently used words to stay unsplit while breaking down infrequent words.
+   </p>
+   <ul bullettype="bullets">
+    <li>
+     <p variant="body1">
+      Using the WordPiece, Unigram, and SentencePiece algorithms, you can implement subword-based tokenization.
+     </p>
+    </li>
+   </ul>
+  </li>
+  <li>
+   <p variant="body1">
+    You can add special tokens such as &lt;bos&gt; at the beginning and &lt;eos&gt; at the end of a tokenized sentence.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    A data set in PyTorch is an object that represents a collection of data samples. Each data sample typically consists of one or more input features and their corresponding target labels.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    A data loader helps you prepare and load data to train generative AI models. Using data loaders, you can output data in batches instead of one sample at a time.
+   </p>
+  </li>
+  <li>
+   <p>
+    Data loaders seamlessly integrate with the PyTorch training pipeline and simplify data augmentation and preprocessing.
+   </p>
+  </li>
+ </ul>
+</co-content>
+<style>
+ body {
+    padding: 50px 85px 50px 85px;
+}
+
+table th, table td {
+    border: 1px solid #e0e0e0;
+    padding: 5px 20px;
+    text-align: left;
+}
+input {
+    margin: 10px;
+}
+}
+th {
+    font-weight: bold;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+pre {
+    display: block;
+    margin: 20px;
+    background: #424242;
+    color: #fff;
+    font-size: 13px;
+    white-space: pre-wrap;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    border: 1px solid #ccc;
+}
+</style>
+<script async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+</script>
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$$','$$'], ['$','$'] ],
+      displayMath: [ ["\\[","\\]"] ],
+      processEscapes: true
+    }
+  });
+</script>

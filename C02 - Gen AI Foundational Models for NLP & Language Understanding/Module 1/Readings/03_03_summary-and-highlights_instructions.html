@@ -1,0 +1,96 @@
+<meta charset="utf-8"/>
+<co-content>
+ <p variant="body1">
+  Congratulations! You have completed this lesson. At this point in the course, you know that:
+ </p>
+ <ul bullettype="bullets">
+  <li>
+   <p variant="body1">
+    A bi-gram model is a conditional probability model with context size one, that is, you consider only the immediate previous word to predict the next one.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    A trigram model is also a conditional probability function and can improve on the bigram model’s limitations by increasing the context size to two.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The concept of a trigram can be generalized to an N-gram model, which allows for an arbitrary context size.
+   </p>
+  </li>
+  <li>
+   <p>
+    In neural network-based n-gram models, the input vector's dimensionality is often described as the product of the vocabulary size and the context size—if one-hot encodings are used. However, in practice, this high-dimensional representation is avoided by using embedding vectors, and the context vector is typically formed by concatenating the embeddings of the preceding words.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    An N-gram model allows for an arbitrary context size.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    In Pytorch, the n-gram language model is essentially a classification model, using the context vector and an extra hidden layer to enhance performance.
+   </p>
+  </li>
+  <li>
+   <p variant="body1">
+    The n-gram model predicts words surrounding a target by incrementally shifting as a sliding window.
+   </p>
+  </li>
+  <li>
+   <p>
+    In training the model, prioritize the loss over accuracy as your key performance indicator or KPI.
+   </p>
+  </li>
+ </ul>
+</co-content>
+<style>
+ body {
+    padding: 50px 85px 50px 85px;
+}
+
+table th, table td {
+    border: 1px solid #e0e0e0;
+    padding: 5px 20px;
+    text-align: left;
+}
+input {
+    margin: 10px;
+}
+}
+th {
+    font-weight: bold;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+pre {
+    display: block;
+    margin: 20px;
+    background: #424242;
+    color: #fff;
+    font-size: 13px;
+    white-space: pre-wrap;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    border: 1px solid #ccc;
+}
+</style>
+<script async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+</script>
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$$','$$'], ['$','$'] ],
+      displayMath: [ ["\\[","\\]"] ],
+      processEscapes: true
+    }
+  });
+</script>
