@@ -1,0 +1,93 @@
+# IBM Generative AI Engineering with LLMs Specialization
+# Python 3.10 · Tested with CUDA 12.1 GPU builds where noted
+# Prefer: python setup_env.py  (handles conda, CUDA index, Windows magic, spaCy models)
+#
+# Manual pip path (after creating a 3.10 env):
+#   # GPU PyTorch first:
+#   pip install torch==2.2.2+cu121 torchvision==0.17.2+cu121 torchaudio==2.2.2+cu121 \
+#     --extra-index-url https://download.pytorch.org/whl/cu121 --no-deps
+#   pip install torchtext==0.17.2+cpu torchdata==0.7.1 \
+#     --extra-index-url https://download.pytorch.org/whl/cpu --no-deps
+#   pip install -r requirements.txt
+#   pip install bitsandbytes==0.43.1 --no-deps
+#   python -m spacy download en_core_web_sm
+#   python -m spacy download de_core_news_sm
+
+# --- Jupyter ---
+jupyterlab
+ipywidgets
+ipykernel
+hf_xet
+
+# --- Core scientific (NumPy 1.x locked) ---
+numpy==1.26.4
+pandas<2.2.0
+scipy<1.13.0
+scikit-learn
+portalocker>=2.8.2
+requests>=2.32.2
+
+# --- Classical NLP + viz ---
+spacy
+nltk
+gensim
+pmdarima
+matplotlib
+seaborn
+plotly==5.22.0
+dash==2.9.3
+
+# --- LLM fine-tuning (locked together) ---
+transformers==4.43.4
+tokenizers==0.19.1
+peft==0.11.1
+trl==0.9.6
+accelerate==0.34.0
+datasets==2.20.0
+evaluate
+rouge_score==0.1.2
+sacrebleu==2.4.2
+torchmetrics
+
+# --- RAG / LangChain ecosystem (pinned together) ---
+langchain==0.2.7
+langchain-core==0.2.43
+langsmith==0.1.147
+langchain-community==0.2.7
+langchain-experimental==0.0.62
+langchain-chroma==0.1.1
+langchain-huggingface==0.0.3
+huggingface_hub==0.24.0
+langchain-ibm>=0.1.4,<0.2.0
+langchain-openai==0.1.16
+sentence-transformers==2.7.0
+langchainhub==0.1.17
+chromadb==0.4.24
+faiss-cpu
+pypdf==4.2.0
+pdfplumber==0.9.0
+PyPDF2
+pymupdf==1.23.26
+unstructured[md,csv,doc]==0.14.9
+# Windows: python-magic-bin==0.4.14  |  Linux/macOS: python-magic
+python-magic-bin==0.4.14; platform_system=="Windows"
+python-magic; platform_system!="Windows"
+arxiv>=2.1.3
+docx2txt==0.8
+fpdf==1.7.2
+lxml==5.2.2
+Levenshtein
+rich>=13.8.0
+tenacity
+posthog==3.5.0
+wget
+python-dotenv
+
+# --- IBM ---
+ibm-watsonx-ai
+
+# bitsandbytes: install separately with --no-deps so it does not replace GPU torch
+# bitsandbytes==0.43.1
+
+# PyTorch / torchtext / torchdata: install via setup_env.py or the index URLs above
+# (not listed here to avoid pip pulling a CPU wheel by default)

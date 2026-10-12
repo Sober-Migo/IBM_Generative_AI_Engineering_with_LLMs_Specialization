@@ -1,0 +1,109 @@
+# =============================================================================
+# URL Mapping — IBM Generative AI Engineering with LLMs Specialization
+# Large assets are NOT stored in Git (size). Download with:
+#   python download_assets.py
+# or curl/wget the URL into the Path column.
+#
+# GloVe is normally loaded via torchtext into TORCH_HOME/text/.vector_cache
+# (see README). The Glove zip URL below is optional.
+#
+# Files marked __local__ are created inside notebooks (not downloaded).
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Shared
+# -----------------------------------------------------------------------------
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/tQdezXocAJMBMPfUJx_iUg/glove-6B.zip
+Path: Glove/glove-6B.zip
+Note: Optional; prefer torchtext GloVe(cache=TORCH_HOME/text/.vector_cache)
+
+# -----------------------------------------------------------------------------
+# Course 2 — Gen AI Foundational Models for NLP & Language Understanding
+# -----------------------------------------------------------------------------
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-AI0201EN-Coursera/RNN-TR-model.pt
+Path: C02 - Gen AI Foundational Models for NLP & Language Understanding/Module 2/Labs/assets/lab3_RNN-TR-model.pt
+
+# -----------------------------------------------------------------------------
+# Course 3 — Generative AI Language Modeling with Transformers
+# -----------------------------------------------------------------------------
+URL:  __local__ (created inside notebook)
+Path: C03 - Generative AI Language Modeling with Transformers/Module 1/Labs/assets/lab2_trained_model.pth
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/kyn1_OsXrzjef0xihlsXmg.pt
+Path: C03 - Generative AI Language Modeling with Transformers/Module 2/Labs/assets/lab1_decoder.pt
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/bZaoQD52DcMpE7-kxwAG8A.zip
+Path: C03 - Generative AI Language Modeling with Transformers/Module 2/Labs/assets/lab2_bert_dataset.zip
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/H04Cs7O75aOfmJ4YP2HdPw.pt
+Path: C03 - Generative AI Language Modeling with Transformers/Module 2/Labs/assets/lab2_model.pt
+
+URL:  __local__ (created inside notebook)
+Path: C03 - Generative AI Language Modeling with Transformers/Module 2/Labs/assets/lab3_train_bert_data_new.zip
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-AI0201EN-Coursera/transformer.pt
+Path: C03 - Generative AI Language Modeling with Transformers/Module 2/Labs/assets/lab4_transformer.pt
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-AI0201EN-Coursera/transformer_de_to_en_model.pt
+Path: C03 - Generative AI Language Modeling with Transformers/Module 2/Labs/assets/lab4_transformer_de_to_en_model.pt
+
+# -----------------------------------------------------------------------------
+# Course 4 — Generative AI Engineering and Fine-Tuning Transformers
+# -----------------------------------------------------------------------------
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/BeXRxFT2EyQAmBHvxVaMYQ/bert-scratch-model.pt
+Path: C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 1/Labs/assets/lab2_bert-scratch-model.pt
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/Assistant_model.pt
+Path: C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 1/Labs/assets/lab4_Assistant_model.pt
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/wFhKpkBMSgjmZKRSyayvsQ/bert-classification-model.pt
+Path: C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 1/Labs/assets/lab4_bert-classification-model.pt
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/35t-FeC-2uN1ozOwPs7wFg.gz
+Path: C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab1_dataset.gz
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/PGhd5G_NVrWNH-_jdjwNlw/model-adapters.pt
+Path: C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab1_model-adapters.pth
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/9c3Dh2O_jsYBShBuchUNlg/model-AG%20News%20small1.pth
+Path: C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab1_model-AG News small1.pth
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/e0WOHKh5dnrbC2lGhpsMMw/model-fine1.pth
+Path: C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab1_model-fine1.pth
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/B-1H6lpDg-A0zRwpB6Ek2g/model-fine2.pth
+Path: C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab1_model-fine2.pth
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/q66IH6a7lglkZ4haM6hB1w/model-IMDB%20dataset%20small2.pth
+Path: C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab1_model-IMDB dataset small2.pth
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/ZvhVWJU0flC7BmU1jjYxjg/model-imdb-freeze-true2.pth
+Path: C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab2_model-imdb-freeze-true2.pth
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/JWPRb1RMhKLRMUWOKw9pxA/model-lora-final2.pth
+Path: C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab2_model-lora-final2.pth
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/uGC04Pom651hQs1XrZ0NsQ/my-model-freeze-false.pth
+Path: C04 - Generative AI Engineering and Fine-Tuning Transformers/Module 2/Labs/assets/lab2_my-model-freeze-false.pth
+
+# -----------------------------------------------------------------------------
+# Course 5 — Generative AI Advanced Fine-Tuning for LLMs
+# -----------------------------------------------------------------------------
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/8zCp__SHRSgGVlf5yP50Ag/ppo-bad-tar.gz
+Path: C05 - Generative AI Advanced Fine-Tuning for LLMs/Module 2/Labs/assets/lab1_ppo-bad-tar.gz
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/we8t5N-45dVq3VhxGwYRAg/ppo-good-tar.gz
+Path: C05 - Generative AI Advanced Fine-Tuning for LLMs/Module 2/Labs/assets/lab1_ppo-good-tar.gz
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/gSWo8GeztngSmzHpqX_RaQ/ppo-good.pkl
+Path: C05 - Generative AI Advanced Fine-Tuning for LLMs/Module 2/Labs/assets/lab1_ppo-good.pkl
+
+URL:  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/jMW99Z9mvxesgYR-H6y6Yw/ppo-bad.pkl
+Path: C05 - Generative AI Advanced Fine-Tuning for LLMs/Module 2/Labs/assets/lab1_ppo-bad.pkl
+
+# -----------------------------------------------------------------------------
+# Notes
+# -----------------------------------------------------------------------------
+# - lab2_classfication_model.pth (C02) is local / LFS if you track it; not on this CDN list.
+# - Prefer: python download_assets.py
+# - After clone: set TORCH_HOME / HF_HOME if desired (see setup_env.py and README).
